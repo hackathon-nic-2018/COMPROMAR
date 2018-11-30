@@ -47,7 +47,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="compromarc">
   <title> COMPROMARC</title>
   <?php include_once '../include/css.php';?>
 </head><!--/head-->
@@ -83,8 +83,9 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                    <h3></h3>
-                    <p>S</p>
+                    <h3>Cangrejos</h3>
+                    <p>Precio: 10 la unidad</p>
+                    <p> Comercializacion A nivel nacional</p>
                   </div>
                   <div class="folio-overview">
                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>

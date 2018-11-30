@@ -18,7 +18,7 @@
   <meta name="author" content="">
   <title> COMPROMARC</title>
   <?php include_once '../include/css.php';?>
-</head><!--/head-->
+</head>
 
 <body>
   <?php include_once '../include/header.php';?>

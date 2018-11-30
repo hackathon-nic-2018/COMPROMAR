@@ -28,8 +28,8 @@
             <li class="scroll"><a href="inicio.php">Inicio</a></li>
             <li class="scroll"><a href="servicios.php">Productos</a></li>
             <li class="scroll"><a href="contactanos.php">Contactanos</a></li>                     
-            <li class="scroll"><a href="registro.php">Registrarte</a></li>
-            <li class="scroll"><a href="registro.php">Login</a></li>     
+            <li class="scroll"><a href="../index.php">Registrarte</a></li>
+            <li class="scroll"><a href="index.php">Login</a></li>     
           </ul>
         </div>
       

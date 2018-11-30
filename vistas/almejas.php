@@ -51,8 +51,8 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                    <h3></h3>
-                    <p>S</p>
+                    <h3>Almajas</h3>
+                    <p>Precio: 20 bolsa</p>
                   </div>
                   <div class="folio-overview">
                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>

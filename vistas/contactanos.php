@@ -1,11 +1,4 @@
-<?php
-  session_start();
-  if (@!$_SESSION['user']) {
-    header("Location:../index.php");
-  }elseif ($_SESSION['rol']==1) {
-    header("Location:admin.php");
-  }
-  ?>
+
 
 <!DOCTYPE html>
 <html lang="es">
@@ -63,9 +56,9 @@
                 <p></p>
                 <ul class="address">
                   <li><i class="fa fa-map-marker"></i> <span> Direccion:</span> Puerto Cabezas  </li>
-                  <li><i class="fa fa-phone"></i> <span> Telefono:</span> 22115852  </li>
-                  <li><i class="fa fa-envelope"></i> <span> Correo:</span><a href="mailto:someone@yoursite.com"> .com</a></li>
-                  <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="#">www.compromar.com</a></li>
+                  <li><i class="fa fa-phone"></i> <span> Telefono:</span> 57121766s  </li>
+                  <li><i class="fa fa-envelope"></i> <span> Correo:</span><a href=""> .com</a></li>
+                  <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="#">www.compromarc.com</a></li>
                 </ul>
               </div>                            
             </div>

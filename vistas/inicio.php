@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
   session_start();
   if (@!$_SESSION['user']) {
@@ -6,9 +5,10 @@
   }elseif ($_SESSION['rol']==1) {
     header("Location:admin.php");
   }
-
+  
   include_once '../connect_db.php';
   ?>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
@@ -40,21 +40,21 @@
         <div class="item active" style="background-image: url(../img/pescado/pescado1.jpg)">
           <div class="caption">
             <h1 class="animated fadeInLeftBig">Bienvenidos <span> a COMPROMARC</span></h1>
-            <p class="animated fadeInRightBig">Innovador - Nuevo - Accesible </p>
+            <p class="animated fadeInRightBig">Somos la plataforma numero 1 en la comercializacion de productos maritimos  </p>
             <a data-scroll class="btn btn-start animated fadeInUpBig" href="#features">Empecemos</a>
           </div>
         </div>
         <div class="item" style="background-image: url(../img/pescado/pescado3.jpg)">
           <div class="caption">
             <h1 class="animated fadeInLeftBig">YAMNI BALRAM <span>COMPROMARC RAH</span></h1>
-            <p class="animated fadeInRightBig">Aprendan - Descubran - Interactuen</p>
+            <p class="animated fadeInRightBig">YANG NANI NUMBA ONE KABU PATA ATKAYA</p>
             <a data-scroll class="btn btn-start animated fadeInUpBig" href="#features">Empecemos</a>
           </div>
         </div>
         <div class="item" style="background-image: url(../img/pescado/pescado4.jpg)">
           <div class="caption">
             <h1 class="animated fadeInLeftBig">WELCOME <span>TO COMPROMAR</span></h1>
-            <p class="animated fadeInRightBig"> - a todos</p>
+            <p class="animated fadeInRightBig">We are the number 1 platform in the marketing of seafood products</p>
             <a data-scroll class="btn btn-start animated fadeInUpBig" href="#features">Empecemos</a>
           </div>
         </div>
@@ -119,7 +119,7 @@
     </div>
   </section><!--/#features-->
 
-  <p><a>Productos recientes</a></p>
+  <p><a><b><br><fonts> <size:20 Productos recientes</fonts></br></b></a></p>
         </div>
       </div>
       <div class="blog-posts">
@@ -223,16 +223,15 @@
     <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
       <div class="container text-center">
         <div class="footer-logo">
-          <a href="index.html"><img class="img-responsive" src="/..images/logoblanco.png" alt="logoblanco"></a>
+          <a href="index.html"><img class="img-responsive" src="../images/logoblanco.png" alt="logoblanco"></a>
         </div>
         <div class="social-icons">
           <ul>
-            <li><a class="envelope" href="#"><i class="fa fa-envelope"></i></a></li>
+            
             <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li> 
-            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            
             <li><a class="facebook" href="https://www.facebook.com/Compromarc-1775654315897285/"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a class="tumblr" href="#"><i class="fa fa-tumblr-square"></i></a></li>
+           
           </ul>
         </div>
       </div>
